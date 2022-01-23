@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style-type: none;
+}
+input {
+  border: none;
+}
+
+@font-face {
+  font-family: segoe;
+  src: url(/css/segoesc.ttf);
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.paper-effect-grey {
+  background: radial-gradient(#fff5f6 8px, transparent 9px) repeat-y;
+  background-size: 30px 32.5px;
+}
+.paper-effect-white {
+  background: radial-gradient(#fff 8px, transparent 9px) repeat-y;
+  background-size: 30px 32.5px;
+}
+.paper-effect-x-white {
+  background: radial-gradient(#fff 12px, transparent 13px) repeat-x;
+  background-size: 37px 32px;
+}
+.paper-effect-x-blue {
+  background: radial-gradient(#192836 10px, transparent 11px) repeat-x;
+  background-size: 27px 30px;
+}
+.section-two-second-cards-img {
+  position: relative;
+}
+
+/* Text-Style */
+
+.text-style-1 {
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 0.68px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Text Colors */
+
+.section-two-cards-header-red {
+  color: #ef233c;
+}
+.section-two-cards-header-green{
+  color: #0acd98;
+}
+.section-two-cards-header-orange {
+  color: #ef9623;
+}
+.section-two-cards-header-blue {
+  color: #13d5e1;
+}
+.section-two-cards-favorities-purple {
+  background-color: #f6e8fe;
+  color: #b452ed;
+}
+.section-two-cards-favorities-gold {
+  background-color: #fff4dc;
+  color: #f5b21b;
+}
+
+/* İcon Colors */
+
+.icon-red {
+  color: #ff5c70;
+}
+.icon-yellow {
+  color: #dcc73a;
+}
+.icon-blue {
+  color: #3a82dc;
+}
